@@ -1,0 +1,14 @@
+{
+  "Alarms": [
+    {
+      "AlarmName": "HighCPUUtilization",
+      "MetricName": "CPUUtilization",
+      "Namespace": "AWS/EC2",
+      "Statistic": "Average",
+      "Period": 300,
+      "EvaluationPeriods": 2,
+      "Threshold": 80,
+      "ComparisonOperator": "GreaterThanThreshold"
+    }
+  ]
+}

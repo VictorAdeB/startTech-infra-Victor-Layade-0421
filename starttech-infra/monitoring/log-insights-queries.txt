@@ -1,0 +1,13 @@
+# Errors in backend logs
+fields @timestamp, @message
+| filter @message like /ERROR/
+| sort @timestamp desc
+| limit 20
+
+# API latency
+fields @timestamp, @duration
+| stats avg(@duration) by bin(5m)
+
+# Health check calls
+fields @message
+| filter @message like "/health"
