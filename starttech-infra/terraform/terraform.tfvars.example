@@ -1,0 +1,4 @@
+aws_region = "us-west-2"
+mongodb_uri = "mongodb+srv://layadeg20_db_user:P6ivSWxJn4xoJ5QL@my-web-dev.e5zuagc.mongodb.net/?appName=My-Web-Dev"
+dockerhub_username = "victorade08"
+dockerhub_password = "dckr_pat_7GOWNs5296rmg9ciubQ_tQDUkU0"
