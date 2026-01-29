@@ -23,7 +23,7 @@ source /etc/environment
 # PULL & RUN BACKEND CONTAINER
 ##################################
 # CHANGE THIS TO YOUR IMAGE
-DOCKER_IMAGE="yourdockerhubuser/starttech-api:latest"
+DOCKER_IMAGE="victorade08/starttech-api:latest"
 
 docker pull $DOCKER_IMAGE
 
@@ -41,3 +41,4 @@ docker run -d \
 ##################################
 sleep 15
 curl -f http://localhost/health || echo "Health check failed"
+
