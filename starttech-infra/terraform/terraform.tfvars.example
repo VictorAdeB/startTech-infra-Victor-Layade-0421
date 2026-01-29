@@ -1,4 +1,3 @@
-aws_region = "us-west-2"
 mongodb_uri = "<MONGO_URL>"
 dockerhub_username = "<DOCKER_USERNAME>"
 docker_password = "<DOCKER_PASSWORD>"
